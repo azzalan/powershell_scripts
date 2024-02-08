@@ -10,5 +10,5 @@ if ($localExists -or $remoteExists) {
     git checkout -b wip;
     git stage --all;
     git commit -m "wip";
-    git push origin wip
+    git push -u origin wip
 }
